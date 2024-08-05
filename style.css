@@ -1,0 +1,78 @@
+/*reset*/
+body{
+    margin: unset;
+    padding: unset;
+    background-color:#dddddd ;
+}
+
+h1, p{
+    margin: unset;
+    padding: unset;
+    font-size: 16px;
+    font-weight: normal ;
+    font-family: Arial;
+}
+/*reset*/
+
+.wrapper{
+    width: 300px;
+    height: 345px;
+    margin: 400px auto;
+    border-radius: 5%;
+
+    text-align: center;
+    
+}
+
+/*main*/
+.main{
+    background-color:#ffffff;
+    height:285px;
+
+    border-radius: 10px 10px 0 0;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.pikachu{
+    margin-top: -222px;
+}
+
+.pikachu-text{
+    color:#F2AA36;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.pikachu-text::after{
+    content:'____';
+    display: block;
+    margin-top: -30px;
+    
+}
+
+.pikachu-info{
+    color:#888888;
+    margin-top: 24px;
+}
+
+.pikachu-info::before{
+    content:'Pikachu';
+    color:#F2AA36;
+    font-weight: bold;
+}
+/*main*/
+
+/*footer*/
+.footer{
+    background-color:#eeeeee;
+    height:60px;
+
+    border-radius: 0 0 10px 10px;
+}
+
+.sns-logo{
+
+}
+/*footer*/
