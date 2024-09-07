@@ -43,13 +43,20 @@ h1, p{
     font-size: 36px;
     font-weight: bold;
     margin-top: 18px;
+
+
 }
 
 .pikachu-text::after{
-    content:'____';
+    content:'';
     display: block;
-    margin-top: -30px;
+    width: 77px;
+    height: 4px;
+    border-radius: 6px;
+    background-color: #F2AA36;
     
+    margin: 0 auto;
+
 }
 
 .pikachu-info{
