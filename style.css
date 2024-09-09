@@ -26,6 +26,35 @@ p {
 
 }
 
+/* header */
+.header{
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #888888;
+    border-radius: 50%;
+    border: solid 3px #585353;
+}
+
+.pikachu-icon:hover{
+    background-color: yellow;
+}
+.cobook-icon:hover{
+    background-color: blue;
+}
+.firey-icon:hover{
+    background-color: red;
+}
+
 /*main*/
 .main {
     background-color: #ffffff;
@@ -72,7 +101,6 @@ p {
     font-weight: bold;
 }
 
-/*main*/
 
 /*footer*/
 .footer {
@@ -127,4 +155,3 @@ p {
 
 
 
-/*footer*/
