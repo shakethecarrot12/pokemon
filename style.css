@@ -65,17 +65,16 @@ p {
     box-sizing: border-box;
 }
 
-.pikachu {
+.img-position {
     margin-top: -222px;
 }
 
+/* pikachu */
 .pikachu-text {
     color: #F2AA36;
     font-size: 36px;
     font-weight: bold;
     margin-top: 18px;
-
-
 }
 
 .pikachu-text::after {
@@ -87,7 +86,6 @@ p {
     background-color: #F2AA36;
 
     margin: 0 auto;
-
 }
 
 .pikachu-info {
@@ -100,7 +98,64 @@ p {
     color: #F2AA36;
     font-weight: bold;
 }
+/* cobook */
+.cobook-text {
+    color: #369df2;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 18px;
+}
 
+.cobook-text::after {
+    content: '';
+    display: block;
+    width: 77px;
+    height: 4px;
+    border-radius: 6px;
+    background-color: #369df2;
+
+    margin: 0 auto;
+}
+
+.cobook-info {
+    color: #888888;
+    margin-top: 24px;
+}
+
+.cobook-info::before {
+    content: 'Pikachu';
+    color: #369df2;
+    font-weight: bold;
+}
+/* firey */
+.firey-text {
+    color: #fa5050;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.firey-text::after {
+    content: '';
+    display: block;
+    width: 77px;
+    height: 4px;
+    border-radius: 6px;
+    background-color: #fa5050;
+
+    margin: 0 auto;
+}
+
+.firey-info {
+    color: #888888;
+    margin-top: 24px;
+}
+
+.firey-info::before {
+    content: 'Pikachu';
+    color: #fa5050;
+    font-weight: bold;
+}
 
 /*footer*/
 .footer {
