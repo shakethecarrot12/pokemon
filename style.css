@@ -97,14 +97,34 @@ p {
     top: 0px;
     left: 0px;
 }
+.sns-logo.icon-t:hover{
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
 .sns-logo.icon-f{
     position: absolute;
     top: 0;
     left:-30px;
 }
+.sns-logo.icon-f:hover{
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
 .sns-logo.icon-p{
     position: absolute;
     top: 0;
     left:-60px;
 }
+.sns-logo.icon-p:hover{
+    position: absolute;
+    top: -30px;
+    left: -60px;
+}
+
+
+
 /*footer*/
